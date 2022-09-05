@@ -209,7 +209,6 @@ async function statusCheck() {
         })
 
     } catch {
-        res.sendStatus(500);
         return;
     }
 
